@@ -13,9 +13,11 @@ for i in StrVowel:
 for i in StrVowel:
     if i not in n1:
         n1=n1+i
-
+n1="".join(sorted(n1, key=str.lower))
 if n1!=vowels:
     print(0)
+    print(n1)
 else:
     print(len(str1))
+
             
